@@ -1,0 +1,96 @@
+local _ben = Instance.new("ScreenGui")
+local ok = Instance.new("Frame")
+local yes = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local what = Instance.new("TextLabel")
+local lol = Instance.new("TextLabel")
+local UICorner_2 = Instance.new("UICorner")
+local no = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local UICorner_4 = Instance.new("UICorner")
+local k = Instance.new("TextLabel")
+local UICorner_5 = Instance.new("UICorner")
+
+_ben.Name = "_ben"
+_ben.Parent = game.CoreGui
+_ben.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+ok.Name = "ok"
+ok.Parent = _ben
+ok.BackgroundColor3 = Color3.fromRGB(27, 27, 27)
+ok.BorderSizePixel = 0
+ok.Position = UDim2.new(0.458230019, 0, 0.119930059, 0)
+ok.Size = UDim2.new(0, 345, 0, 462)
+
+yes.Name = "yes"
+yes.Parent = ok
+yes.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+yes.BorderColor3 = Color3.fromRGB(255, 255, 255)
+yes.BorderSizePixel = 0
+yes.Position = UDim2.new(0.394202918, 0, 0, 0)
+yes.Size = UDim2.new(0, 60, 0, 50)
+yes.Font = Enum.Font.GothamBold
+yes.Text = "666"
+yes.TextColor3 = Color3.fromRGB(255, 255, 255)
+yes.TextSize = 14.000
+
+UICorner.Parent = yes
+
+what.Name = "what"
+what.Parent = ok
+what.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+what.BorderColor3 = Color3.fromRGB(255, 255, 255)
+what.BorderSizePixel = 0
+what.Position = UDim2.new(-1.86264515e-09, 0, 0, 0)
+what.Size = UDim2.new(0, 125, 0, 27)
+what.Font = Enum.Font.GothamBold
+what.Text = "Powered by Satan"
+what.TextColor3 = Color3.fromRGB(255, 255, 255)
+what.TextSize = 14.000
+
+lol.Name = "lol"
+lol.Parent = ok
+lol.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+lol.BorderColor3 = Color3.fromRGB(255, 255, 255)
+lol.BorderSizePixel = 0
+lol.Position = UDim2.new(0.13333334, 0, 0.132034644, 0)
+lol.Size = UDim2.new(0, 252, 0, 269)
+lol.Font = Enum.Font.Gotham
+lol.Text = ""
+lol.TextColor3 = Color3.fromRGB(212, 212, 212)
+lol.TextSize = 14.000
+lol.TextWrapped = true
+
+UICorner_2.Parent = lol
+
+no.Name = "no"
+no.Parent = lol
+no.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+no.BorderColor3 = Color3.fromRGB(255, 255, 255)
+no.BorderSizePixel = 0
+no.Position = UDim2.new(0.244513452, 0, 0.40557462, 0)
+no.Size = UDim2.new(0, 127, 0, 50)
+no.Font = Enum.Font.Gotham
+no.Text = "antikur mixed this"
+no.TextColor3 = Color3.fromRGB(212, 212, 212)
+no.TextSize = 14.000
+no.TextWrapped = true
+
+UICorner_3.Parent = no
+
+UICorner_4.Parent = ok
+
+k.Name = "k"
+k.Parent = ok
+k.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+k.BorderColor3 = Color3.fromRGB(255, 255, 255)
+k.BorderSizePixel = 0
+k.Position = UDim2.new(0.133333325, 0, 0.813852787, 0)
+k.Size = UDim2.new(0, 252, 0, 56)
+k.Font = Enum.Font.Gotham
+k.Text = "Brought to you by 666Solutions"
+k.TextColor3 = Color3.fromRGB(212, 212, 212)
+k.TextSize = 14.000
+k.TextWrapped = true
+
+UICorner_5.Parent = k
